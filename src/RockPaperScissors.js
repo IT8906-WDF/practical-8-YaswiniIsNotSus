@@ -2,7 +2,6 @@ import RPSButtons from './RPSButtons.js';
 import RPSInput from './RPSInput.js';
 import RPSRecords from './RPSRecords.js';
 import React from 'react';
-import React from 'react';
 import recordsReducer from './recordsReducer';
 import { IsEmojiContext } from './IsEmojiContext';
 
