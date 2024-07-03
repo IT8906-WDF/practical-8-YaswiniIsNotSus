@@ -1,6 +1,7 @@
 import RPSButtons from './RPSButtons.js';
 import RPSInput from './RPSInput.js';
 import RPSRecords from './RPSRecords.js';
+import recordsReducer from './recordsReducer';
 
 export default function RockPaperScissors(props) {
     const [records, setRecords] = React.useState([]);
