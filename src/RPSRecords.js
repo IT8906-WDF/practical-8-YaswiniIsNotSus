@@ -1,5 +1,5 @@
 import React from 'react';
-import { IsEmojiContext, emoji } from './IsEmojiContext';
+import { IsEmojiContext, emoji } from './IsEmojiContext.js';
 
 export default function RPSRecords(props) {
   const isEmoji = React.useContext(IsEmojiContext);
