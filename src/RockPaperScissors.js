@@ -4,7 +4,7 @@ import RPSRecords from './RPSRecords.js';
 import recordsReducer from './recordsReducer';
 
 
-function RockPaperScissors(props) {
+export default function RockPaperScissors(props) {
     // Use Reducer instead
     const [records, dispatch] = React.useReducer(recordsReducer, []);
     return (
